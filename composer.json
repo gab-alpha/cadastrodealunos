@@ -1,0 +1,13 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.16",
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "Models\\": "models/",
+            "Controllers\\": "controllers/"
+        }
+    }
+}
